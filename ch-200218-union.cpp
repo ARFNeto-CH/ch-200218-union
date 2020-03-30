@@ -50,7 +50,7 @@ int main(int argc, char** argv)
 		mostra(&teste, i);
 	// nada a liberar: so usamos valores estaticos
 	// agora mostra o ultimo elemento de cada vetor
-	cout << "\nO ultimo elemento, visto com 1 a 5 indices, deve ser o mesmo:\n" << endl;
+	::std::cout << "\nO ultimo elemento, visto com 1 a 5 indices, deve ser o mesmo:\n" << endl;
 	cout << "1D v[59] = " << (*teste.x1D)[59] << endl;
 	cout << "2D v[3][14] = " << (*teste.x2D)[3][14] << endl;
 	cout << "3D v[2][3][4] = " << (*teste.x3D)[2][3][4] << endl;
